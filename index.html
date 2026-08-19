@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Серверное оборудование для бизнеса в Казахстане. Продажа серверов Dell, HP, Supermicro с гарантией и доставкой по Алматы.">
+    <title>Серверное оборудование для бизнеса в Казахстане | ServerOK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">ServerOK</div>
+                <nav class="nav">
+                    <a href="#catalog">Каталог</a>
+                    <a href="#about">О нас</a>
+                    <a href="#contacts">Контакты</a>
+                </nav>
+                <a href="tel:+77272505000" class="phone">+7 (727) 250-50-00</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Серверное оборудование для бизнеса в Казахстане</h1>
+            <p class="hero-subtitle">Надежные серверы Dell, HP, Supermicro для вашего бизнеса. Гарантия, доставка, техподдержка.</p>
+            <a href="#catalog" class="btn-primary">Выбрать сервер</a>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2>Каталог серверов</h2>
+            <div class="catalog-grid">
+                <!-- Server 1 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="Dell PowerEdge R640">
+                    </div>
+                    <h3>Dell PowerEdge R640</h3>
+                    <ul class="specs">
+                        <li>Intel Xeon Silver 4210R 2.4GHz</li>
+                        <li>32GB DDR4 RAM</li>
+                        <li>2x 1TB SATA HDD</li>
+                        <li>Redundant PSU 750W</li>
+                    </ul>
+                    <div class="price">от 850 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('Dell PowerEdge R640')">Отправить заявку</button>
+                </div>
+
+                <!-- Server 2 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="HP ProLiant DL360 Gen10">
+                    </div>
+                    <h3>HP ProLiant DL360 Gen10</h3>
+                    <ul class="specs">
+                        <li>Intel Xeon Gold 5218 2.3GHz</li>
+                        <li>64GB DDR4 RAM</li>
+                        <li>4x 2TB SAS HDD</li>
+                        <li>Redundant PSU 800W</li>
+                    </ul>
+                    <div class="price">от 1 200 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('HP ProLiant DL360 Gen10')">Отправить заявку</button>
+                </div>
+
+                <!-- Server 3 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="Supermicro SuperServer 6019P">
+                    </div>
+                    <h3>Supermicro SuperServer 6019P</h3>
+                    <ul class="specs">
+                        <li>Intel Xeon Silver 4208 2.1GHz</li>
+                        <li>16GB DDR4 ECC RAM</li>
+                        <li>2x 500GB NVMe SSD</li>
+                        <li>Single PSU 550W</li>
+                    </ul>
+                    <div class="price">от 650 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('Supermicro SuperServer 6019P')">Отправить заявку</button>
+                </div>
+
+                <!-- Server 4 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="Dell PowerEdge T440">
+                    </div>
+                    <h3>Dell PowerEdge T440</h3>
+                    <ul class="specs">
+                        <li>Intel Xeon Bronze 3204 1.9GHz</li>
+                        <li>16GB DDR4 RAM</li>
+                        <li>4x 4TB SATA HDD</li>
+                        <li>Single PSU 495W</li>
+                    </ul>
+                    <div class="price">от 720 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('Dell PowerEdge T440')">Отправить заявку</button>
+                </div>
+
+                <!-- Server 5 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="HP ProLiant ML350 Gen10">
+                    </div>
+                    <h3>HP ProLiant ML350 Gen10</h3>
+                    <ul class="specs">
+                        <li>Intel Xeon Gold 6230 2.1GHz</li>
+                        <li>128GB DDR4 RAM</li>
+                        <li>6x 1.2TB SAS HDD</li>
+                        <li>Redundant PSU 800W</li>
+                    </ul>
+                    <div class="price">от 1 850 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('HP ProLiant ML350 Gen10')">Отправить заявку</button>
+                </div>
+
+                <!-- Server 6 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="Supermicro SuperServer 1029P">
+                    </div>
+                    <h3>Supermicro SuperServer 1029P</h3>
+                    <ul class="specs">
+                        <li>Dual Intel Xeon Silver 4214 2.2GHz</li>
+                        <li>64GB DDR4 ECC RAM</li>
+                        <li>2x 960GB SSD + 4x 4TB HDD</li>
+                        <li>Redundant PSU 1000W</li>
+                    </ul>
+                    <div class="price">от 1 450 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('Supermicro SuperServer 1029P')">Отправить заявку</button>
+                </div>
+
+                <!-- Server 7 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="Dell PowerEdge R740">
+                    </div>
+                    <h3>Dell PowerEdge R740</h3>
+                    <ul class="specs">
+                        <li>Dual Intel Xeon Gold 6226R 2.9GHz</li>
+                        <li>256GB DDR4 RAM</li>
+                        <li>8x 1.92TB NVMe SSD</li>
+                        <li>Redundant PSU 1100W</li>
+                    </ul>
+                    <div class="price">от 2 900 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('Dell PowerEdge R740')">Отправить заявку</button>
+                </div>
+
+                <!-- Server 8 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="HP ProLiant DL380 Gen10">
+                    </div>
+                    <h3>HP ProLiant DL380 Gen10</h3>
+                    <ul class="specs">
+                        <li>Dual Intel Xeon Gold 5220 2.2GHz</li>
+                        <li>128GB DDR4 RAM</li>
+                        <li>4x 1.2TB SAS HDD + 2x 480GB SSD</li>
+                        <li>Redundant PSU 800W</li>
+                    </ul>
+                    <div class="price">от 1 650 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('HP ProLiant DL380 Gen10')">Отправить заявку</button>
+                </div>
+
+                <!-- Server 9 -->
+                <div class="server-card">
+                    <div class="server-image">
+                        <img src="placeholder-server.jpg" alt="Supermicro SuperServer 2029U">
+                    </div>
+                    <h3>Supermicro SuperServer 2029U</h3>
+                    <ul class="specs">
+                        <li>Dual Intel Xeon Platinum 8268 2.9GHz</li>
+                        <li>512GB DDR4 ECC RAM</li>
+                        <li>12x 3.84TB NVMe SSD</li>
+                        <li>Redundant PSU 2000W</li>
+                    </ul>
+                    <div class="price">от 4 500 000 ₸</div>
+                    <button class="btn-order" onclick="openOrderForm('Supermicro SuperServer 2029U')">Отправить заявку</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О компании</h2>
+            <p>ServerOK — надежный поставщик серверного оборудования для бизнеса в Казахстане. Мы предлагаем широкий выбор серверов от ведущих производителей с гарантией качества и профессиональной техподдержкой.</p>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contacts-grid">
+                <div class="contact-info">
+                    <h3>Наш офис</h3>
+                    <p><strong>Адрес:</strong> Казахстан, г. Алматы, Шевченко 165б</p>
+                    <p><strong>Телефон:</strong> <a href="tel:+77272505000">+7 (727) 250-50-00</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:zakaz@mega-server.kz">zakaz@mega-server.kz</a></p>
+                    <p><strong>Режим работы:</strong> Пн-Пт 9:00 - 18:00</p>
+                </div>
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ServerOK. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Order Modal -->
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeOrderForm()">&times;</span>
+            <h2>Отправить заявку</h2>
+            <form id="orderForm">
+                <input type="hidden" id="serverModel" name="serverModel">
+                <div class="form-group">
+                    <label for="name">Ваше имя *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Комментарий</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU" type="text/javascript"></script>
+    <script src="script.js"></script>
+</body>
+</html>

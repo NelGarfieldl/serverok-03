@@ -1,0 +1,10 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#EDF1F5"/>
+  <rect x="50" y="80" width="300" height="140" rx="8" fill="#5A6B7F" opacity="0.3"/>
+  <rect x="70" y="100" width="260" height="20" rx="4" fill="#3B6DFF" opacity="0.6"/>
+  <rect x="70" y="130" width="260" height="20" rx="4" fill="#3B6DFF" opacity="0.6"/>
+  <rect x="70" y="160" width="260" height="20" rx="4" fill="#3B6DFF" opacity="0.6"/>
+  <circle cx="90" cy="110" r="4" fill="#2ECC71"/>
+  <circle cx="100" cy="110" r="4" fill="#2ECC71"/>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="14" fill="#5A6B7F" text-anchor="middle">Server Equipment</text>
+</svg>
